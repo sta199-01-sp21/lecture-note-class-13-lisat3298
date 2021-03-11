@@ -1,6 +1,6 @@
 ---
 title: "Simulation-based inference - confidence intervals"
-author: ""
+author: "Lisa Tang"
 date: "March 3, 2021"
 output: html_document
 editor_options: 
@@ -117,6 +117,8 @@ point estimate to use?
 
 
 What is the downside to using point estimates?
+
+Point estimates are less acccurate than intervals because intervals encompass a larger range.
 
 ## Confidence intervals
 
@@ -250,10 +252,10 @@ Create a 95% bootstrap confidence interval for the population *mean* price of
 
 First, identify the following:
 
-- Population: 
-- Parameter of interest:
-- Sample:
-- Sample size:
+- Population: 1-bedroom apartments in Manhattan, NY
+- Parameter of interest: Mean price of apartments
+- Sample: 1-bedroom apartments in Manhattan
+- Sample size: 20
 
 To create our confidence interval, we'll follow the four-step bootstrap
 scheme outlined in the slides using functions from `infer`.
