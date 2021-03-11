@@ -334,6 +334,8 @@ What does this mean?
 
 **Interpretation**:
 
+We can say with 95% confidence that that the mean price of 1 bedroom Manhattan apartment is within the range (2299, 2977) in dollars.
+
 #### Practice
 
 Use `infer` functions to create a 95% bootstrap confidence interval for the 
@@ -413,8 +415,7 @@ visualise(boot_prop) +
 
 Give an interpretation of your result.
 
-We can say with 90% confidence that that the true proportion of mice that died while not
-on the treatment is within the range (0.552, 0.651).
+We can say with 90% confidence that that the proportion of mice that lived on the treatment is within the range (0.552, 0.651).
 
 # References
 
